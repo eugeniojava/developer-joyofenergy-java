@@ -3,11 +3,11 @@ package uk.tw.energy.controller;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
-import uk.tw.energy.domain.ElectricityReading;
+import uk.tw.energy.reading.ElectricityReading;
 import uk.tw.energy.priceplan.PricePlan;
 import uk.tw.energy.priceplan.AccountService;
 import uk.tw.energy.priceplan.PricePlanComparatorController;
-import uk.tw.energy.meterreading.MeterReadingService;
+import uk.tw.energy.reading.MeterReadingService;
 import uk.tw.energy.priceplan.PricePlanService;
 
 import java.math.BigDecimal;
